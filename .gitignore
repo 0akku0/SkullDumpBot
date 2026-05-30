@@ -1,0 +1,21 @@
+# Secrets — never commit these
+.env
+
+# Runtime files created automatically — not part of source
+pending_folders.json
+custom_folders.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# Attachments saved by the bot — can be large, personal
+attachments/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
